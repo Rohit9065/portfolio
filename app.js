@@ -196,52 +196,49 @@ function closeResumeModal() {
 
 // Project Details Data
 const projectDetails = {
-  medipulse: {
-    title: 'Medipulse - Smart Hospital Management Platform',
-    date: 'Mar 26 – Apr 26',
-    status: 'Live Demo & Full-Stack Platform',
+  student: {
+    title: 'Student Management System',
+    date: 'Jun 26 – Jul 26',
+    status: 'GitHub Repository & C++ Architecture',
     badgeClass: 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20',
-    description: 'A comprehensive, cloud-ready healthcare management solution developed to streamline clinical workflows, patient tracking, and internal hospital logistics.',
+    description: 'A robust, high-performance console application built with modern C++11 and STL containers enabling efficient record creation, multi-criteria sorting, and fast lookups across large datasets.',
     highlights: [
-      'Architected end-to-end patient registration, smart queues, appointment scheduling, and consultation records.',
-      'Constructed real-time administrative dashboards for tracking bed & ward occupancy.',
-      'Designed pharmacy dispensing modules with automated stock tracking and inventory alerts.',
-      'Engineered RESTful API endpoints utilizing Node.js, Express, and MongoDB document schemas.'
+      'Developed a console-based Student System using C++11 STL containers, enabling efficient record creation, updates, deletions, and analytics.',
+      'Implemented Merge Sort (O(n log n)) for multi-criteria sorting and Binary Search (O(log n)) for fast lookups across large datasets.',
+      'Optimized memory management with dynamic allocation and defensive stream programming, reducing crashes, buffer overflows, and memory leaks.'
     ],
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'REST APIs'],
-    liveDemo: 'https://medipulse-hms.vercel.app',
-    github: 'https://github.com/Rohit9065/medipulse'
+    tech: ['C++11', 'STL (Vectors, Maps, Lists)', 'Merge Sort O(n log n)', 'Binary Search O(log n)', 'Memory Management'],
+    github: 'https://github.com/Rohit9065/SummerIntershipDsa'
   },
   paranormal: {
     title: 'AI Paranormal Activity Detector',
     date: 'Apr 26 – May 26',
-    status: 'Deployed on Vercel',
+    status: 'Live Demo & Deployed on Vercel',
     badgeClass: 'bg-purple-500/10 text-purple-400 border border-purple-500/20',
-    description: 'An AI-powered conversational investigation assistant that structures paranormal research, collects anomaly metrics, and evaluates investigative evidence.',
+    description: 'An AI-powered conversational investigation assistant that guides users through structured paranormal investigations, evidence collection, and hypothesis generation.',
     highlights: [
-      'Engineered an interactive conversational agent guiding users through multi-step investigations.',
-      'Implemented structured evidence logging, anomaly note-taking, and contextual hypothesis formulation.',
-      'Designed a sleek, responsive dark web interface and deployed the application seamlessly on Vercel.',
-      'Integrated AI API endpoints with defensive user input validation and state management.'
+      'Engineered an AI-powered chatbot that guides users through structured paranormal investigations by collecting case details, observations, and evidence notes.',
+      'Designed conversational workflows to examine reported anomalies, organize findings, and suggest possible explanations or next investigative steps.',
+      'Integrated an interactive web interface and deployed the application on Vercel for accessible case-based investigation.'
     ],
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'AI API', 'Vercel Deployment'],
+    tech: ['HTML', 'CSS', 'JavaScript', 'AI API', 'Vercel Deployment'],
     liveDemo: 'https://ai-paranormal-activity-detector.vercel.app',
     github: 'https://github.com/Rohit9065/AiParanormalActivity_detector'
   },
-  student: {
-    title: 'Student Management System',
-    date: 'Jun 26 – Jul 26',
-    status: 'High-Performance C++ Architecture',
+  medipulse: {
+    title: 'Medipulse - Smart Hospital Management Platform',
+    date: 'Mar 26 – Apr 26',
+    status: 'Live Demo & Full-Stack Platform',
     badgeClass: 'bg-blue-500/10 text-blue-400 border border-blue-500/20',
-    description: 'A robust, high-performance console application built with modern C++11 and STL to perform student record manipulations, sorting, and fast searches.',
+    description: 'A unified healthcare management solution developed to streamline clinical workflows, patient tracking, smart queues, and automated hospital logistics.',
     highlights: [
-      'Implemented Merge Sort with O(n log n) algorithmic complexity for multi-field criteria sorting.',
-      'Integrated Binary Search for O(log n) instant record retrieval across large-scale datasets.',
-      'Utilized modern C++11 STL containers (Vectors, Maps, Lists) for cache-friendly memory organization.',
-      'Enforced defensive input stream programming and dynamic memory management, avoiding crashes and leaks.'
+      'Architected a unified hospital platform for patient registration, smart queues, appointments, consultations, and medical records.',
+      'Enabled real-time dashboards, bed/ward tracking, pharmacy operations, and automated inventory management.',
+      'Enhanced productivity and gained hands-on experience in full-stack development, REST APIs, and application deployment.'
     ],
-    tech: ['C++11', 'STL (Vectors, Maps, Lists)', 'Merge Sort O(n log n)', 'Binary Search O(log n)', 'Memory Management'],
-    github: 'https://github.com/Rohit9065/SummerIntershipDsa'
+    tech: ['HTML', 'CSS', 'JavaScript', 'Express', 'Node.js', 'MongoDB', 'REST APIs'],
+    liveDemo: 'https://medipulse-hms.vercel.app',
+    github: 'https://github.com/Rohit9065/medipulse'
   }
 };
 

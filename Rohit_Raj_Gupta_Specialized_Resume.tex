@@ -1,0 +1,184 @@
+%-------------------------
+% Resume in LaTeX - Specialized Format (LPU Standard)
+% Author : Rohit Raj Gupta
+% Based on: Specialized CV Template
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \textbf{Rohit Raj Gupta}} \\ \vspace{2pt}
+    Bettiah, Bihar 845438 \\ \vspace{2pt}
+    \small \faPhone* \ \href{tel:+919065118528}{+91 9065118528} \ $|$ \ 
+    \faEnvelope \ \href{mailto:rajguptarohit361@gmail.com}{rajguptarohit361@gmail.com} \ $|$ \ 
+    \faLinkedin \ \href{https://linkedin.com/in/rohit-raj-gupta/}{linkedin.com/in/rohit-raj-gupta/} \ $|$ \ 
+    \faGithub \ \href{https://github.com/Rohit9065}{github.com/Rohit9065}
+\end{center}
+
+%-----------INTERNSHIP-----------
+\section{Internship}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Data Structure And Algorithm using C++ Trainee}{Jun 2026 -- Aug 2026}
+      {Lovely Professional University}{Phagwara, Punjab}
+      \resumeItemListStart
+        \resumeItem{Completed structured training covering basics of data structures and algorithms using C++ concepts.}
+        \resumeItem{Explored arrays, linked lists, stacks and queues through problem solving and hands-on coding exercises.}
+        \resumeItem{Strengthened problem-solving skills with time complexity analysis and simple C++ based implementation practice sessions.}
+        \resumeItem{Certificate Link: \href{https://drive.google.com/file/d/1McZ1N0U0Siug5xjHZxdaHpsUScU4FG4U/view?usp=sharing}{https://drive.google.com/file/d/1McZ1N0U0Siug5xjHZxdaHpsUScU4FG4U/}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Student Management System} $|$ \emph{C++11, STL (Vectors, Maps, Lists), Merge Sort, Binary Search}}{Jun 2026 -- Jul 2026}
+      \resumeItemListStart
+        \resumeItem{Developed a console-based Student System using C++11 STL containers, enabling efficient record creation, updates, deletions, and analytics.}
+        \resumeItem{Implemented Merge Sort ($O(n \log n)$) for multi-criteria sorting and Binary Search ($O(\log n)$) for fast lookups across large datasets.}
+        \resumeItem{Optimized memory management with dynamic allocation and defensive stream programming, reducing crashes, buffer overflows, and memory leaks.}
+        \resumeItem{Github Repository Link: \href{https://github.com/Rohit9065/SummerIntershipDsa}{https://github.com/Rohit9065/SummerIntershipDsa}}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{AI Paranormal Activity Detector} $|$ \emph{HTML, CSS, JavaScript, AI API, Vercel}}{Apr 2026 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{Engineered an AI-powered chatbot that guides users through structured paranormal investigations by collecting case details, observations, and evidence notes.}
+        \resumeItem{Designed conversational workflows to examine reported anomalies, organize findings, and suggest possible explanations or next investigative steps.}
+        \resumeItem{Integrated an interactive web interface and deployed the application on Vercel for accessible case-based investigation.}
+        \resumeItem{Github Repository Link: \href{https://github.com/Rohit9065/AiParanormalActivity_detector}{https://github.com/Rohit9065/AiParanormalActivity\_detector}}
+        \resumeItem{Live Demo Link: \href{https://ai-paranormal-activity-detector.vercel.app}{https://ai-paranormal-activity-detector.vercel.app}}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Medipulse-Smart Hospital Management Platform} $|$ \emph{HTML, CSS, JavaScript, Express, Node, MongoDB}}{Mar 2026 -- Apr 2026}
+      \resumeItemListStart
+        \resumeItem{Architected a unified hospital platform for patient registration, smart queues, appointments, consultations, and medical records.}
+        \resumeItem{Enabled real-time dashboards, bed/ward tracking, pharmacy operations, and automated inventory management.}
+        \resumeItem{Enhanced productivity and gained hands-on experience in full-stack development, REST APIs, and application deployment.}
+        \resumeItem{Github Repository Link: \href{https://github.com/Rohit9065/medipulse}{https://github.com/Rohit9065/medipulse}}
+        \resumeItem{Live Demo Link: \href{https://medipulse-hms.vercel.app}{https://medipulse-hms.vercel.app}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Programming in Java}{May 2026}
+      {iamneo (NIIT Venture), Lovely Professional University --- \href{https://drive.google.com/file/d/1q6yeMMKQzpm6Ck0Ho4DOn-XnXLSFBUuC/view?usp=sharing}{Certificate Link}}{}
+
+    \resumeSubheading
+      {Object-Oriented Programming}{Jan 2026}
+      {iamneo (NIIT Venture), Lovely Professional University --- \href{https://drive.google.com/file/d/1iaDNEzyynppc7msmLrcD-4Ie8yt-VMdp/view?usp=sharing}{Certificate Link}}{}
+
+    \resumeSubheading
+      {Computer Programming - 72 Hours}{May 2025}
+      {iamneo, Lovely Professional University --- Certificate Link}{}
+
+    \resumeSubheading
+      {Data Structures \& Algorithms C++ Certification}{Aug 2026}
+      {Lovely Professional University --- \href{https://drive.google.com/file/d/1McZ1N0U0Siug5xjHZxdaHpsUScU4FG4U/view?usp=sharing}{Certificate Link}}{}
+
+    \resumeSubheading
+      {Competitive Programming \& Problem Solving}{Aug 2024 -- Present}
+      {Solved 200+ questions in Java, C++, C across \href{https://leetcode.com/u/rohit9065/}{LeetCode}, \href{https://codeforces.com/profile/rohit9065}{CodeForces}, and \href{https://www.geeksforgeeks.org/profile/rajguptarqwcv?tab=activity}{GFG}}{}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, C, C++} \\ \vspace{1pt}
+     \textbf{Technologies/Frameworks}{: HTML, CSS, React, Express, Node JS, React JS, Next JS, Excel, Cursor, VS Code, Jupyter Notebook, Power BI, MongoDB Compass, Git, GitHub} \\ \vspace{1pt}
+     \textbf{Skills}{: Data Structures \& Algorithms (DSA), Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems (OS), MySQL, MongoDB, Adaptability, Problem Solving, Teamwork}
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lovely Professional University Punjab}{Since Aug 2024}
+      {B.Tech - Computer Science and Engineering --- CGPA: 8.39}{Phagwara, Punjab}
+    \resumeSubheading
+      {M.J.K College}{Apr 2021 -- Mar 2022}
+      {Intermediate --- Percentage: 79.8\%}{Bettiah, Bihar}
+    \resumeSubheading
+      {St. Michael's Academy}{Apr 2019 -- Mar 2020}
+      {Matriculation --- Percentage: 90\%}{Bettiah, Bihar}
+  \resumeSubHeadingListEnd
+
+\end{document}

@@ -63,10 +63,19 @@ You can simply double-click or open `index.html` in any web browser (Chrome, Edg
 - **Hero & Role Typewriter**: Interactive typing headline reflecting B.Tech CSE at LPU, Full-Stack development, and 200+ DSA solutions.
 - **Particle Canvas**: Dynamic floating ambient particle connections in the background.
 - **Skills Grid & Filter**: Categorized filter for Languages, Web Technologies, Databases & Tools, Core CS, and Soft Skills.
-- **Featured Project Showcases**:
-  - *Medipulse - Smart Hospital Management Platform* (MERN/Full-Stack)
-  - *AI Paranormal Activity Detector* (AI Agent, Vercel)
-  - *Student Management System* (C++11, STL, Merge Sort & Binary Search)
+- **Featured Project Showcases (All Interactive & Clickable)**:
+  - *Student Management System* (C++11, STL, Merge Sort & Binary Search) &bull; [GitHub](https://github.com/Rohit9065/SummerIntershipDsa)
+  - *AI Paranormal Activity Detector* (AI Agent, Vercel) &bull; [Live Demo](https://ai-paranormal-activity-detector.vercel.app) &bull; [GitHub](https://github.com/Rohit9065/AiParanormalActivity_detector)
+  - *Medipulse - Smart Hospital Management Platform* (MERN/Full-Stack) &bull; [Live Demo](https://medipulse-hms.vercel.app) &bull; [GitHub](https://github.com/Rohit9065/medipulse)
+- **Verified Credentials & Certifications (Clickable & Drive-Linked)**:
+  - *Data Structure And Algorithm using C++* (LPU Trainee) &bull; [Certificate Drive](https://drive.google.com/file/d/1McZ1N0U0Siug5xjHZxdaHpsUScU4FG4U/view?usp=sharing)
+  - *Programming in Java* (iamneo NIIT Venture) &bull; [Certificate Drive](https://drive.google.com/file/d/1q6yeMMKQzpm6Ck0Ho4DOn-XnXLSFBUuC/view?usp=sharing)
+  - *Object-Oriented Programming* (iamneo NIIT Venture) &bull; [Certificate Drive](https://drive.google.com/file/d/1iaDNEzyynppc7msmLrcD-4Ie8yt-VMdp/view?usp=sharing)
+  - *Computer Programming - 72 Hours* (iamneo) &bull; [Local PDF](certificates/computer-programming-certificate.pdf)
+- **Competitive Programming Profiles**:
+  - [LeetCode Profile](https://leetcode.com/u/rohit9065/)
+  - [Codeforces Profile](https://codeforces.com/profile/rohit9065)
+  - [GeeksforGeeks Profile](https://www.geeksforgeeks.org/profile/rajguptarqwcv?tab=activity)
 - **Deep-Dive Project Modal**: Click to inspect system architecture, complexity, and feature breakdowns.
 - **Curriculum Vitae Modal**: Built-in modal rendering Rohit's complete CV with one-click print/save as PDF.
 - **Copy-to-Clipboard**: Quick copy for email `rajguptarohit361@gmail.com` with toast notification.
