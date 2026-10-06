@@ -1,0 +1,20 @@
+{
+  "name": "rohit-raj-gupta-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio of Rohit Raj Gupta - Computer Science Undergraduate & Full-Stack Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "c++",
+    "full-stack",
+    "mern",
+    "software-engineer"
+  ],
+  "author": "Rohit Raj Gupta <rajguptarohit361@gmail.com>",
+  "license": "MIT"
+}
