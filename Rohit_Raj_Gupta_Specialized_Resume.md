@@ -33,7 +33,7 @@ Bettiah, Bihar 845438
 - Enabled real-time dashboards, bed/ward tracking, pharmacy operations, and automated inventory management.
 - Enhanced productivity and gained hands-on experience in full-stack development, REST APIs, and application deployment.
 - Github Repository Link: [https://github.com/Rohit9065/medipulse](https://github.com/Rohit9065/medipulse)
-- Live Demo Link: [https://medipulse-hms.vercel.app](https://medipulse-hms.vercel.app)
+- Live Demo Link: [https://smartcare-hms-avk9.onrender.com](https://smartcare-hms-avk9.onrender.com)
 
 ---
 

@@ -237,7 +237,7 @@ const projectDetails = {
       'Enhanced productivity and gained hands-on experience in full-stack development, REST APIs, and application deployment.'
     ],
     tech: ['HTML', 'CSS', 'JavaScript', 'Express', 'Node.js', 'MongoDB', 'REST APIs'],
-    liveDemo: 'https://medipulse-hms.vercel.app',
+    liveDemo: 'https://smartcare-hms-avk9.onrender.com',
     github: 'https://github.com/Rohit9065/medipulse'
   }
 };

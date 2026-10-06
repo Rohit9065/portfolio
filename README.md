@@ -66,7 +66,7 @@ You can simply double-click or open `index.html` in any web browser (Chrome, Edg
 - **Featured Project Showcases (All Interactive & Clickable)**:
   - *Student Management System* (C++11, STL, Merge Sort & Binary Search) &bull; [GitHub](https://github.com/Rohit9065/SummerIntershipDsa)
   - *AI Paranormal Activity Detector* (AI Agent, Vercel) &bull; [Live Demo](https://ai-paranormal-activity-detector.vercel.app) &bull; [GitHub](https://github.com/Rohit9065/AiParanormalActivity_detector)
-  - *Medipulse - Smart Hospital Management Platform* (MERN/Full-Stack) &bull; [Live Demo](https://medipulse-hms.vercel.app) &bull; [GitHub](https://github.com/Rohit9065/medipulse)
+  - *Medipulse - Smart Hospital Management Platform* (MERN/Full-Stack) &bull; [Live Demo](https://smartcare-hms-avk9.onrender.com) &bull; [GitHub](https://github.com/Rohit9065/medipulse)
 - **Verified Credentials & Certifications (Clickable & Drive-Linked)**:
   - *Data Structure And Algorithm using C++* (LPU Trainee) &bull; [Certificate Drive](https://drive.google.com/file/d/1McZ1N0U0Siug5xjHZxdaHpsUScU4FG4U/view?usp=sharing)
   - *Programming in Java* (iamneo NIIT Venture) &bull; [Certificate Drive](https://drive.google.com/file/d/1q6yeMMKQzpm6Ck0Ho4DOn-XnXLSFBUuC/view?usp=sharing)
