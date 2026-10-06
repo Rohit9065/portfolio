@@ -1,14 +1,3 @@
 {
-  "version": 2,
-  "name": "rohit-raj-gupta-portfolio",
-  "cleanUrls": true,
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "cleanUrls": true
 }

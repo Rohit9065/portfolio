@@ -2,10 +2,9 @@
   "name": "rohit-raj-gupta-portfolio",
   "version": "1.0.0",
   "description": "Personal Portfolio of Rohit Raj Gupta - Computer Science Undergraduate & Full-Stack Developer",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "serve": "node server.js"
   },
   "keywords": [
     "portfolio",
