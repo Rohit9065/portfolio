@@ -209,7 +209,8 @@ const projectDetails = {
       'Engineered RESTful API endpoints utilizing Node.js, Express, and MongoDB document schemas.'
     ],
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'Express', 'MongoDB', 'REST APIs'],
-    github: 'https://github.com/Rohit9065'
+    liveDemo: 'https://medipulse-hms.vercel.app',
+    github: 'https://github.com/Rohit9065/medipulse'
   },
   paranormal: {
     title: 'AI Paranormal Activity Detector',
@@ -224,7 +225,8 @@ const projectDetails = {
       'Integrated AI API endpoints with defensive user input validation and state management.'
     ],
     tech: ['HTML5', 'CSS3', 'JavaScript', 'AI API', 'Vercel Deployment'],
-    github: 'https://github.com/Rohit9065'
+    liveDemo: 'https://ai-paranormal-activity-detector.vercel.app',
+    github: 'https://github.com/Rohit9065/AiParanormalActivity_detector'
   },
   student: {
     title: 'Student Management System',
@@ -239,7 +241,7 @@ const projectDetails = {
       'Enforced defensive input stream programming and dynamic memory management, avoiding crashes and leaks.'
     ],
     tech: ['C++11', 'STL (Vectors, Maps, Lists)', 'Merge Sort O(n log n)', 'Binary Search O(log n)', 'Memory Management'],
-    github: 'https://github.com/Rohit9065'
+    github: 'https://github.com/Rohit9065/SummerIntershipDsa'
   }
 };
 
@@ -256,7 +258,7 @@ function openProjectModal(key) {
         <h3 class="text-xl font-bold text-white mt-1.5">${p.title}</h3>
         <p class="text-xs text-slate-400 font-mono mt-0.5">${p.date}</p>
       </div>
-      <button onclick="closeProjectModal()" class="p-2 rounded-lg bg-slate-800 text-slate-400 hover:text-white">
+      <button onclick="closeProjectModal()" class="p-2 rounded-lg bg-slate-800 text-slate-400 hover:text-white transition-colors">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
     </div>
@@ -284,11 +286,17 @@ function openProjectModal(key) {
       </div>
     </div>
 
-    <div class="pt-4 border-t border-slate-800 flex justify-end gap-3">
-      <button onclick="closeProjectModal()" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 text-xs font-semibold hover:bg-slate-700">
+    <div class="pt-4 border-t border-slate-800 flex flex-wrap items-center justify-end gap-3">
+      <button onclick="closeProjectModal()" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 text-xs font-semibold hover:bg-slate-700 transition-colors">
         Close
       </button>
-      <a href="${p.github}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold flex items-center gap-2">
+      ${p.liveDemo ? `
+        <a href="${p.liveDemo}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-semibold flex items-center gap-2 shadow-lg shadow-emerald-500/20 transition-all">
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+          <span>Open Live Demo</span>
+        </a>
+      ` : ''}
+      <a href="${p.github}" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold flex items-center gap-2 shadow-lg shadow-blue-500/20 transition-all">
         <i data-lucide="github" class="w-4 h-4"></i>
         <span>View on GitHub</span>
       </a>

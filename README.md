@@ -79,6 +79,12 @@ You can simply double-click or open `index.html` in any web browser (Chrome, Edg
 
 ```
 d:\portfolio\
+├── certificates/     # Verified certificates (DSA, Java, OOP, C Programming)
+│   ├── dsa-cpp-certificate.pdf
+│   ├── oop-cpp-certificate.pdf
+│   ├── java-programming-certificate.pdf
+│   └── computer-programming-certificate.pdf
+├── Rohit_Raj_Gupta_Resume.pdf # Official Curriculum Vitae
 ├── index.html        # Main single-page application structure
 ├── styles.css        # Glassmorphic UI styles, animations & glowing effects
 ├── app.js            # Particle canvas, typewriter, interactive modal logic
